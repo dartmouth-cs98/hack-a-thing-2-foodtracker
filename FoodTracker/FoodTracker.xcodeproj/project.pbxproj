@@ -14,6 +14,7 @@
 		00662CB81F7433BE0027FDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00662CB61F7433BE0027FDBB /* LaunchScreen.storyboard */; };
 		00662CC31F7433BE0027FDBB /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662CC21F7433BE0027FDBB /* FoodTrackerTests.swift */; };
 		6012C6041F75F59E0064296A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012C6031F75F59E0064296A /* RatingControl.swift */; };
+		6012C6061F76A9E20064296A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012C6051F76A9E20064296A /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		00662CC21F7433BE0027FDBB /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		00662CC41F7433BE0027FDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6012C6031F75F59E0064296A /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		6012C6051F76A9E20064296A /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				00662CAD1F7433BE0027FDBB /* AppDelegate.swift */,
 				00662CAF1F7433BE0027FDBB /* ViewController.swift */,
+				6012C6051F76A9E20064296A /* Meal.swift */,
 				6012C6031F75F59E0064296A /* RatingControl.swift */,
 				00662CB11F7433BE0027FDBB /* Main.storyboard */,
 				00662CB41F7433BE0027FDBB /* Assets.xcassets */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6012C6061F76A9E20064296A /* Meal.swift in Sources */,
 				00662CB01F7433BE0027FDBB /* ViewController.swift in Sources */,
 				6012C6041F75F59E0064296A /* RatingControl.swift in Sources */,
 				00662CAE1F7433BE0027FDBB /* AppDelegate.swift in Sources */,
